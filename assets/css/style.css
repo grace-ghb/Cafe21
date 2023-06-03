@@ -169,7 +169,7 @@ hr {
 }
 
 #left-eclipse-cover-bg {
-    background: url(/assets/images/ethos-coffee.jpg);
+    background: url(../images/ethos-coffee.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +190,10 @@ hr {
 }
 
 #right-cover-bg {
-    background: url(/assets/images/library-corner.jpg) no-repeat center center;
+    background: url(../images/library-corner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: 600px;
     width: 300px;
     height: 400px;
@@ -275,7 +278,7 @@ footer {
     position: relative;
     overflow: hidden;
     position: relative;
-    background-image: url(/assets/images/coffee-bean-landscape.jpg);
+    background-image: url(../images/coffee-bean-landscape.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -767,7 +770,7 @@ textarea {
     }
 
     #cafe-menu {
-        background-image: url(/assets/images/coffee-bean-potrait.jpg);
+        background-image: url(../images/coffee-bean-potrait.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
