@@ -246,3 +246,398 @@ footer {
     background: #cac9d2;
     position: relative;
 }
+
+#photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16PX;
+    max-width: 1168px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+#photos img {
+    width: 100%;
+    max-width: 260px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* cafe menu */
+#cafe-menu {
+    height: 1150px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    background-image: url(/assets/images/coffee-bean-landscape.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#drinks-container,
+#foods-container {
+    width: 65%;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 5px solid burlywood;
+    border-radius: 20%;
+}
+
+#drinks-container {
+    height: 400px;
+    margin-top: 90px;
+}
+
+#foods-container {
+    height: 540px;
+    margin-top: 20px;
+}
+
+#drinks-header {
+    width: 60%;
+    padding: 20px 0;
+    text-align: center;
+    height: 60px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+#drinks-header h2 {
+    letter-spacing: 2px;
+}
+
+#drinks-header p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#drinks-menu {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+}
+
+#hot-drinks {
+    width: 50%;
+    float: left;
+}
+
+#cold-drinks {
+    width: 50%;
+    float: right;
+}
+
+#drinks-menu h3 {
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.drinks {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    max-width: 500px;
+    border-top: solid #252525 2px;
+    line-height: 8px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 13px;
+}
+
+.flavor {
+    text-align: left;
+    width: 70%;
+}
+
+.price {
+    text-align: right;
+    width: 25%
+}
+
+.item-choice li {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    line-height: 13px;
+}
+
+.item-choice i {
+    font-size: 12px;
+    color: #3a3a3a;
+}
+
+#foods-header {
+    width: 60%;
+    padding: 20px 0;
+    text-align: center;
+    height: 90px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+#foods-header h2 {
+    letter-spacing: 2px;
+}
+
+#foods-header p {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+#foods-menu-first,
+#foods-menu-third {
+    float: left;
+}
+
+#foods-menu-second,
+#foods-menu-fourth {
+    float: right;
+}
+
+#foods-menu-first,
+#foods-menu-second {
+    width: 50%;
+    height: 180px;
+}
+
+#foods-menu-third,
+#foods-menu-fourth {
+    width: 50%;
+    height: 200px;
+}
+
+.foods-type {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    max-width: 500px;
+    line-height: 8px;
+}
+
+
+
+/* media queries  */
+
+/*Desktop Query*/
+@media screen and (max-width: 1200px) {
+
+    /* media for ethos */
+    #club-ethos {
+        width: 65%;
+        height: 1550px;
+        margin: 0 auto
+    }
+
+    #cover-text {
+        right: 50px;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    /* media for gallery */
+    #cafe-gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    #photos {
+        padding-top: 12px;
+        gap: 12px;
+    }
+
+    /* media for menu */
+    .item p {
+        font-size: 16px;
+        line-height: 13px;
+    }
+
+    .item-choice li {
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 16px;
+        line-height: 13px;
+    }
+
+    #drinks-header p,
+    #foods-header p {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #drinks-menu h3 {
+        font-size: 18px;
+    }
+
+    #drinks-container,
+    #foods-container {
+        width: 70%;
+    }
+
+    #drinks-container {
+        height: 410px;
+        margin-top: 90px;
+    }
+
+    #foods-container {
+        height: 590px;
+    }
+
+    #cafe-menu {
+        background-image: url(/assets/images/coffee-bean-potrait.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1200px;
+    }
+
+
+
+
+}
+
+/* for medium screen size from 950px and down */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    /* media for ethos */
+    #club-ethos {
+        width: 65%;
+        height: 1800px;
+        margin: 0 auto;
+    }
+
+    #hero-outer {
+        height: 500px;
+    }
+
+    #hero-image {
+        height: 500px;
+    }
+
+    .center-about-heading {
+        width: inherit;
+    }
+
+    .center-about-heading h2 {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .center-about-heading p {
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    /* media for gallery */
+    #cafe-gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    #photos {
+        padding-top: 12px;
+        gap: 12px;
+    }
+
+    #photos img {
+        width: 100%;
+        max-width: 260px;
+        height: 320px;
+    }
+
+    /* media for menu */
+    .item p {
+        font-size: 16px;
+        line-height: 13px;
+    }
+
+    #drinks-header p,
+    #foods-header p {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #drinks-menu h3 {
+        font-size: 18px;
+    }
+
+    #drinks-container,
+    #foods-container {
+        width: 92%;
+    }
+
+    #drinks-container {
+        height: 410px;
+        margin-top: 80px;
+    }
+
+    #foods-container {
+        height: 595px;
+    }
+
+    #cafe-menu {
+        background-image: url(../images/coffee-bean-portrait.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+
+}
