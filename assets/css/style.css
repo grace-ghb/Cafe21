@@ -1,18 +1,206 @@
 /* remove default margin, paddings and borders */
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
-body{
+
+body {
     font-family: Recursive, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
 }
+
 /* headings and logo */
-h1{
+h1 {
     font-family: satisfy, cursive, sans-serif;
     letter-spacing: 12px;
     text-transform: capitalize;
     color: rgb(127, 49, 63);
 }
+
+#logo {
+    float: left;
+    font-size: 330%;
+    margin-left: 30px;
+}
+
+h2 {
+    font-family: Recursive, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+/* navigation links */
+#menu {
+    float: right;
+    font-size: 115%;
+    letter-spacing: 2px;
+}
+
+#menu,
+#logo {
+    line-height: 90px;
+}
+
+#menu li {
+    display: inline-block;
+    /*float right removed*/
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    border-bottom: #3a3a3a 1px solid;
+}
+
+#menu a:hover {
+    border-bottom: 1pxsolid #3a3a3a;
+}
+
+/* Main or hero section */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #cac9d2;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/coffee-fruits.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* animation effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* animation - create the level of zoom for hero-image */
+@keyframes hero-zoom {
+
+    from {
+        transform: scale(0.6);
+        opacity: .6;
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+#cover-text {
+    font-size: 180%;
+    font-weight: 900;
+    font-family: Recursive, sans-serif;
+    letter-spacing: 4px;
+
+    width: 600px;
+    height: 160px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 120px;
+    right: 100px;
+    position: absolute;
+}
+
+#club-ethos {
+    height: 700px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.center-about-heading {
+    width: 100%;
+    text-align: justify;
+    line-height: 26px;
+    height: 400px;
+}
+
+.center-about-heading h2 {
+    text-align: left;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0 10px;
+}
+
+#left-eclipse-container {
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border: solid #ccc 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#left-eclipse-cover-bg {
+    background: url(/assets/images/ethos-coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 400px;
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#right-container {
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#right-cover-bg {
+    background: url(/assets/images/library-corner.jpg) no-repeat center center;
+    background-size: 600px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    /* background-color: yellow; */
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 250%;
+}
+
+h2 i {
+    font-size: 80%;
+}
+
+/* footer */
