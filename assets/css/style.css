@@ -52,11 +52,16 @@ h2 {
 }
 
 #menu a {
-    border-bottom: #3a3a3a 1px solid;
+    text-decoration: none;
+    color: inherit;
 }
 
 #menu a:hover {
     border-bottom: 1pxsolid #3a3a3a;
+}
+
+.active {
+    border-bottom: #3a3a3a 1px solid;
 }
 
 /* Main or hero section */
