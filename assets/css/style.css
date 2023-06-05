@@ -851,7 +851,7 @@ textarea {
     /* media for ethos */
     #club-ethos {
         width: 65%;
-        height: auto;
+        height: 1620px;
         margin: 0 auto;
     }
 
@@ -865,6 +865,7 @@ textarea {
 
     .center-about-heading {
         width: inherit;
+        height: 500px;
     }
 
     .center-about-heading h2 {
@@ -1092,7 +1093,7 @@ textarea {
     }
 
     #club-ethos {
-        height: 1500px;
+        height: 1620px;
         width: 75%;
     }
 
@@ -1104,7 +1105,7 @@ textarea {
 
     .center-about-heading {
         line-height: 20px;
-        height: 580px;
+        height: 680px;
     }
 
     .center-about-heading h2 {
