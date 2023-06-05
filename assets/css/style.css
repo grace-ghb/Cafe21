@@ -1011,13 +1011,10 @@ textarea {
     }
 
     #signup-container {
-
         height: auto;
-
     }
 
     #book-club-container {
-
         height: auto;
     }
 
@@ -1025,25 +1022,26 @@ textarea {
         width: 100%;
     }
 
-    #book-club-image {
-        width: 90%;
-    }
-
     #book-club-image img {
-        padding: 20px 20px 20px 0;
+        padding: 20px;
+        float: none;
     }
 
     #submit,
     label,
     textarea {
-        margin-left: 100px;
+        margin-left: 20px;
+    }
+
+    textarea {
+        width: 80%;
     }
 
     input {
         display: block;
         line-height: 20px;
         padding: 5px 0;
-        width: 65%;
+        width: 60%;
         border: solid 1px #cac9d2;
         border-radius: 3px;
         font-size: 16px;
@@ -1051,7 +1049,6 @@ textarea {
 
     #signup-form {
         width: 100%;
-
     }
 
     #submit {
@@ -1347,9 +1344,71 @@ textarea {
         float: none;
     }
 
+    /* media quries for sign up form */
 
+    #signup-welcome h2 {
+        text-align: left;
+    }
 
+    #signup-welcome h3 {
+        text-align: left;
+    }
 
+    #signup-form {
+        clear: left;
+        float: left;
+    }
+
+    #signup-container {
+        height: auto;
+    }
+
+    #book-club-container {
+        height: auto;
+    }
+
+    #book-club-image {
+        max-width: 100%;
+        width: 400px;
+        display: block;
+    }
+
+    #book-club-image img {
+        margin: 0 auto;
+        padding: 20px;
+        float: none;
+    }
+
+    #submit,
+    label,
+    textarea {
+        margin-left: 20px;
+    }
+
+    input {
+        /* display: block;
+        line-height: 20px;
+        padding: 5px 0; */
+        width: 100%;
+        /* border: solid 1px #cac9d2;
+        border-radius: 3px;
+        font-size: 16px; */
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    #signup-form {
+        width: 100%;
+
+    }
+
+    #submit:active {
+        background: #3a3a3a;
+        box-shadow: 0 8px #cac9d2;
+        transform: translateY(4px);
+    }
 
 }
 
