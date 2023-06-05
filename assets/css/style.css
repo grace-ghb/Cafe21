@@ -1083,16 +1083,16 @@ textarea {
 
     /* navigation links */
     #menu {
-        clear: both;
-        float: left;
+        /* clear: both; */
+        float: none;
         margin-left: 30px;
-        font-size: 75%;
+        font-size: 70%;
         letter-spacing: 1px;
     }
 
     #menu li {
         margin: 0;
-        padding-left: 1px;
+        padding-right: 1px;
     }
 
     /* Main or hero section */
