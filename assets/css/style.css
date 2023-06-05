@@ -1070,7 +1070,7 @@ textarea {
 
     /* navigation links */
     #menu {
-        clear: left;
+        clear: both;
         float: left;
         margin-left: 30px;
         font-size: 85%;
@@ -1079,7 +1079,7 @@ textarea {
 
     #menu li {
         margin: 0;
-        padding: 0 5px;
+        padding: 0 2px;
     }
 
     /* Main or hero section */
@@ -1088,7 +1088,7 @@ textarea {
     }
 
     #hero-image {
-        height: 300px;
+        height: 150px;
     }
 
     #cover-text {
@@ -1112,7 +1112,7 @@ textarea {
 
     .center-about-heading {
         line-height: 20px;
-        height: 630px;
+        height: 580px;
     }
 
     .center-about-heading h2 {
