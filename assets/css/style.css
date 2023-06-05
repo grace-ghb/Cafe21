@@ -532,10 +532,11 @@ footer {
 #location img {
     background-image: url(../images/map.png);
     max-width: 100%;
-    width: 500px;
+    width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 2%;
+    margin: 0 30px;
 }
 
 /* sign up for our book club */
@@ -842,13 +843,25 @@ textarea {
         margin-left: 30px;
         margin-bottom: 25px;
         line-height: 25px;
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+
+    #menu li {
+        margin: 0;
+        padding: 0 1px;
     }
 
     #cover-text {
         left: 0;
+        font-size: 120%;
+        letter-spacing: 4px;
+
+        width: 450px;
     }
 
     /* media for ethos */
+
     #club-ethos {
         width: 65%;
         height: 1950px;
@@ -949,14 +962,12 @@ textarea {
         height: 400px;
         margin: 0 auto;
         padding-bottom: 30px;
-        /* display: block; */
     }
 
     #contact-detail {
         width: 80%;
         height: 400px;
         margin: 0 auto;
-        /* display: block; */
     }
 
     #location>img {
@@ -966,8 +977,16 @@ textarea {
     }
 
     #quote {
-        max-width: 100%;
+        max-width: 90%;
         width: 600px;
+        height: 100px;
+    }
+
+    #quote h2 {
+        font-size: 120%;
+        text-align: left;
+        letter-spacing: 4px;
+        line-height: 30px;
     }
 
     #contact-us {
@@ -980,7 +999,7 @@ textarea {
     #location {
         width: 80%;
         height: 400px;
-        margin: 0 auto;
+        margin: 0 10px;
         float: none;
     }
 
@@ -1070,13 +1089,13 @@ textarea {
         clear: both;
         float: left;
         margin-left: 30px;
-        font-size: 85%;
+        font-size: 80%;
         letter-spacing: 1px;
     }
 
     #menu li {
         margin: 0;
-        padding: 0 2px;
+        padding: 0 1px;
     }
 
     /* Main or hero section */
@@ -1183,25 +1202,7 @@ textarea {
 
     #cafe-menu {
         height: 1780px;
-        /* width: 100%;
-        overflow: hidden;
-        position: relative;
-        background-image: url(../images/coffee-bean-landscape.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        object-fit: cover; */
     }
-
-    /* #drinks-container,
-    #foods-container {
-        width: 70%;
-        background: #fff;
-        margin: 0 auto;
-        margin-top: 50px;
-        border: 5px solid burlywood;
-        border-radius: 20%;
-    } */
 
     #drinks-container {
         height: 680px;
@@ -1215,11 +1216,6 @@ textarea {
 
     #drinks-header {
         width: 70%;
-        /* padding: 20px 0;
-        text-align: center;
-        height: 60px;
-        line-height: 30px;
-        margin: 0 auto; */
     }
 
     #drinks-header h2 {
@@ -1234,10 +1230,6 @@ textarea {
     }
 
     #drinks-menu {
-        /* width: 100%;
-        overflow: hidden;
-        position: relative;
-        clear: both; */
         height: 600px;
     }
 
@@ -1260,56 +1252,15 @@ textarea {
         font-size: 16px;
     }
 
-    /* .drinks {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0px;
-        max-width: 500px;
-        border-top: solid #252525 2px;
-        line-height: 8px;
-    } */
-
     .item p {
-        /* display: inline-block;
-        margin-top: 5px;
-        margin-bottom: 5px; */
         font-size: 13px;
         line-height: 12px;
     }
-
-    /* .flavor {
-        text-align: left;
-        width: 70%;
-    } */
-
-    /* .price {
-        text-align: right;
-        width: 25%
-    } */
 
     .item-choice li {
-        /* list-style-type: none;
-        padding-left: 30px;
-        padding-top: 3px;
-        padding-bottom: 3px; */
         font-size: 13px;
         line-height: 12px;
     }
-
-    /* .item-choice i {
-        font-size: 12px;
-        color: #3a3a3a;
-    } */
-
-    /* #foods-header {
-        width: 60%;
-        padding: 20px 0;
-        text-align: center;
-        height: 90px;
-        line-height: 30px;
-        margin: 0 auto;
-    } */
 
     #foods-header h2 {
         letter-spacing: 2px;
@@ -1344,170 +1295,64 @@ textarea {
         height: 250px;
     }
 
-    /* .foods-type {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0px;
-        max-width: 500px;
-        line-height: 8px;
-    } */
+    /* media for contact us*/
+
+    #quote h2 {
+        font-size: 110%;
+        letter-spacing: 2px;
+        text-align: left;
+    }
+
+    #quote {
+        width: 500px;
+        max-width: 90%;
+    }
+
+    #contact-container {
+        height: 1500px;
+        width: 100%;
+    }
+
+    #contact-image {
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    #contact-detail {
+        width: 80%;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    #location img {
+        max-width: 90%;
+        width: 300px;
+        object-fit: cover;
+        margin: 0 20px;
+    }
+
+    #contact-us {
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+        display: block;
+    }
+
+    #location {
+        width: 80%;
+        height: 400px;
+        margin: 0 10px;
+        float: none;
+    }
 
 
 
-    /* media for menu 
-        .item p {
-            font-size: 12px;
-            line-height: 10px;
-        }
-    
-        #drinks-header p,
-        #foods-header p {
-            font-size: 14px;
-            letter-spacing: 1px;
-        }
-    
-        #drinks-menu h3 {
-            font-size: 16px;
-        }
-    
-        .item-choice li {
-            font-size: 12px;
-        }
-    
-        #drinks-container,
-        #foods-container {
-            width: 82%;
-        }
-    
-        #drinks-container {
-            height: 400px;
-            margin-top: 80px;
-        }
-    
-        #foods-container {
-            height: 550px;
-        }
-    
-        #cafe-menu {
-            background-image: url(../images/coffee-bean-landscape.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 1150px;
-        }
-    
-        /* media for contact us
-        #contact-container {
-            height: 1500px;
-            width: 100%;
-        }
-    
-        #contact-image {
-            width: 80%;
-            height: 400px;
-            margin: 0 auto;
-            padding-bottom: 30px;
-            /* display: block;
-        }
-    
-        #contact-detail {
-            width: 80%;
-            height: 400px;
-            margin: 0 auto;
-            /* display: block; 
-        }
-    
-        #location>img {
-            max-width: 100%;
-            width: 500px;
-            object-fit: cover;
-        }
-    
-        #quote {
-            max-width: 100%;
-            width: 600px;
-        }
-    
-        #contact-us {
-            max-width: 100%;
-            width: 500px;
-            height: auto;
-            display: block;
-        }
-    
-        #location {
-            width: 80%;
-            height: 400px;
-            margin: 0 auto;
-            float: none;
-        }
-    
-         media quries for sign up form 
-    
-        #signup-form {
-            clear: left;
-            float: left;
-        }
-    
-        #signup-container {
-    
-            height: auto;
-    
-        }
-    
-        #book-club-container {
-    
-            height: auto;
-        }
-    
-        #book-club-image {
-            width: 100%;
-        }
-    
-        #book-club-image {
-            width: 90%;
-        }
-    
-        #book-club-image img {
-            padding: 20px 20px 20px 0;
-        }
-    
-        #submit,
-        label,
-        textarea {
-            margin-left: 100px;
-        }
-    
-        input {
-            display: block;
-            line-height: 20px;
-            padding: 5px 0;
-            width: 65%;
-            border: solid 1px #cac9d2;
-            border-radius: 3px;
-            font-size: 16px;
-        }
-    
-        #signup-form {
-            width: 100%;
-    
-        }
-    
-        #submit {
-            background: #a8a8a8;
-            box-shadow: 0 4px #cac9d2;
-        }
-    
-        #submit:hover {
-            background: #a1a1a1;
-        }
-    
-        #submit:active {
-            background: #3a3a3a;
-            box-shadow: 0 5px #cac9d2;
-            transform: translateY(4px);
-        }*/
 
 
 }
+
+/* (max-width: 481px) - Ln 1079
+(min-width: 481px) and (max-width: 950px) - Ln838
+ (max-width: 1200px) - Ln 685 */
