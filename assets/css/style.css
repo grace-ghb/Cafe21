@@ -1088,7 +1088,7 @@ textarea {
     }
 
     #hero-image {
-        height: 150px;
+        height: 300px;
     }
 
     #cover-text {
@@ -1164,7 +1164,7 @@ textarea {
     }
 
     #footer-div {
-        height: 5px;
+        height: 20px;
     }
 
     #copyright {
@@ -1173,6 +1173,7 @@ textarea {
 
     #copyright p {
         margin: 0 auto;
+        padding-top: 10px;
     }
 
     .social-networks i {
