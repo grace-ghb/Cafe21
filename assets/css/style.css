@@ -1046,14 +1046,6 @@ textarea {
     }
 }
 
-
-/* desktop queries */
-@media only screen and (min-width: 768px) {}
-
-/* tablet queries */
-@media only screen and (min-width: 481px) and (max-width: 768px) {}
-
-
 /* mobile queries */
 @media only screen and (max-width: 480px) {
     h1 {
