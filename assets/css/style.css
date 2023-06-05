@@ -1101,7 +1101,7 @@ textarea {
 
     #club-ethos {
         height: 1500px;
-        width: 80%;
+        width: 75%;
     }
 
     #left-about,
@@ -1117,38 +1117,38 @@ textarea {
 
     .center-about-heading h2 {
         text-align: left;
-        font-size: 95%;
+        font-size: 90%;
         letter-spacing: 1px;
-        margin-left: 5px;
+        margin-left: 4px;
     }
 
     .center-about-heading p {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     #left-eclipse-container {
-        width: 250px;
-        height: 350px;
+        width: 230px;
+        height: 330px;
         padding: 22px;
         margin: 0 auto;
     }
 
     #left-eclipse-cover-bg {
-        background-size: 300px;
-        width: 250px;
-        height: 350px;
+        background-size: 250px;
+        width: 230px;
+        height: 330px;
     }
 
     #right-container {
-        width: 250px;
-        height: 350px;
+        width: 230px;
+        height: 330px;
         padding: 22px;
     }
 
     #right-cover-bg {
-        background-size: 500px;
-        width: 250px;
-        height: 350px;
+        background-size: 450px;
+        width: 230px;
+        height: 330px;
     }
 
     #welcome {
