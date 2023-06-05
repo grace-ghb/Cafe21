@@ -198,7 +198,6 @@ hr {
     width: 300px;
     height: 400px;
     border-radius: 5px;
-    /* background-color: yellow; */
 }
 
 #welcome {
@@ -274,8 +273,6 @@ footer {
 #cafe-menu {
     height: 1150px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
     overflow: hidden;
     position: relative;
     background-image: url(../images/coffee-bean-landscape.jpg);
@@ -770,7 +767,7 @@ textarea {
     }
 
     #cafe-menu {
-        background-image: url(../images/coffee-bean-potrait.jpg);
+        background-image: url(../images/coffee-bean-landscape.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -854,7 +851,7 @@ textarea {
     /* media for ethos */
     #club-ethos {
         width: 65%;
-        height: 1800px;
+        height: auto;
         margin: 0 auto;
     }
 
@@ -929,10 +926,11 @@ textarea {
     }
 
     #cafe-menu {
-        background-image: url(../images/coffee-bean-portrait.jpg);
+        background-image: url(../images/coffee-bean-landscape.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 1200px;
     }
 
     /* media for contact us */
@@ -1045,5 +1043,141 @@ textarea {
         background: #3a3a3a;
         box-shadow: 0 5px #cac9d2;
         transform: translateY(4px);
+    }
+}
+
+
+/* desktop queries */
+@media only screen and (min-width: 768px) {}
+
+/* tablet queries */
+@media only screen and (min-width: 481px) and (max-width: 768px) {}
+
+
+/* mobile queries */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-family: satisfy, cursive, sans-serif;
+        letter-spacing: 12px;
+        text-transform: capitalize;
+        color: rgb(127, 49, 63);
+    }
+
+    #logo {
+        float: left;
+        font-size: 200%;
+    }
+
+    /* navigation links */
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        font-size: 85%;
+        letter-spacing: 1px;
+    }
+
+    #menu li {
+        margin: 0;
+        padding: 0 5px;
+    }
+
+    /* Main or hero section */
+    #hero-outer {
+        height: 300px;
+    }
+
+    #hero-image {
+        height: 300px;
+    }
+
+    #cover-text {
+        font-size: 90%;
+        letter-spacing: 2px;
+        width: 300px;
+        height: 80px;
+        top: 80px;
+    }
+
+    #club-ethos {
+        height: 1480px;
+        width: 80%;
+    }
+
+    #left-about,
+    #right-about,
+    #center-about {
+        padding-top: 20px;
+    }
+
+    .center-about-heading {
+        line-height: 20px;
+        height: 630px;
+    }
+
+    .center-about-heading h2 {
+        text-align: left;
+        font-size: 95%;
+        letter-spacing: 1px;
+        margin-left: 5px;
+    }
+
+    .center-about-heading p {
+        font-size: 90%;
+    }
+
+    #left-eclipse-container {
+        width: 250px;
+        height: 350px;
+        padding: 22px;
+        margin: 0 auto;
+    }
+
+    #left-eclipse-cover-bg {
+        background-size: 300px;
+        width: 250px;
+        height: 350px;
+    }
+
+    #right-container {
+        width: 250px;
+        height: 350px;
+        padding: 22px;
+    }
+
+    #right-cover-bg {
+        background-size: 500px;
+        width: 250px;
+        height: 350px;
+    }
+
+    #welcome {
+        margin: 10px 0;
+        font-size: 125%;
+        padding: 15px 0;
+    }
+
+    /* footer */
+
+    footer {
+        height: 160px;
+    }
+
+    #footer-div {
+        height: 5px;
+    }
+
+    #copyright {
+        font-size: 80%;
+    }
+
+    #copyright p {
+        margin: 0 auto;
+    }
+
+    .social-networks i {
+        font-size: 160%;
+        line-height: 30px;
+        padding-bottom: 30px;
     }
 }
