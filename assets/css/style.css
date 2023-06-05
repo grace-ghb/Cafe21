@@ -834,7 +834,7 @@ textarea {
 
 /* for medium screen size from 950px and down */
 
-@media screen and (max-width: 950px) {
+@media only screen and (min-width: 481px) and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -851,7 +851,7 @@ textarea {
     /* media for ethos */
     #club-ethos {
         width: 65%;
-        height: 1620px;
+        height: 1950px;
         margin: 0 auto;
     }
 
@@ -865,7 +865,7 @@ textarea {
 
     .center-about-heading {
         width: inherit;
-        height: 500px;
+        height: 700px;
     }
 
     .center-about-heading h2 {
@@ -898,32 +898,36 @@ textarea {
 
     /* media for menu */
     .item p {
-        font-size: 16px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 10px;
     }
 
     #drinks-header p,
     #foods-header p {
-        font-size: 18px;
-        letter-spacing: 2px;
+        font-size: 14px;
+        letter-spacing: 1px;
     }
 
     #drinks-menu h3 {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .item-choice li {
+        font-size: 12px;
     }
 
     #drinks-container,
     #foods-container {
-        width: 92%;
+        width: 82%;
     }
 
     #drinks-container {
-        height: 410px;
+        height: 400px;
         margin-top: 80px;
     }
 
     #foods-container {
-        height: 595px;
+        height: 550px;
     }
 
     #cafe-menu {
@@ -931,7 +935,7 @@ textarea {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1200px;
+        height: 1150px;
     }
 
     /* media for contact us */
@@ -1048,7 +1052,7 @@ textarea {
 }
 
 /* mobile queries */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 481px) {
     h1 {
         font-family: satisfy, cursive, sans-serif;
         letter-spacing: 12px;
@@ -1174,4 +1178,336 @@ textarea {
         line-height: 30px;
         padding-bottom: 30px;
     }
+
+    /* cafe menu mobile media */
+
+    #cafe-menu {
+        height: 1780px;
+        /* width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-image: url(../images/coffee-bean-landscape.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover; */
+    }
+
+    /* #drinks-container,
+    #foods-container {
+        width: 70%;
+        background: #fff;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: 5px solid burlywood;
+        border-radius: 20%;
+    } */
+
+    #drinks-container {
+        height: 680px;
+        margin-top: 90px;
+    }
+
+    #foods-container {
+        height: 880px;
+        margin-top: 20px;
+    }
+
+    #drinks-header {
+        width: 70%;
+        /* padding: 20px 0;
+        text-align: center;
+        height: 60px;
+        line-height: 30px;
+        margin: 0 auto; */
+    }
+
+    #drinks-header h2 {
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+    #drinks-header p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 16px;
+    }
+
+    #drinks-menu {
+        /* width: 100%;
+        overflow: hidden;
+        position: relative;
+        clear: both; */
+        height: 600px;
+    }
+
+    #hot-drinks {
+        width: 100%;
+        float: left;
+        height: 300px;
+    }
+
+    #cold-drinks {
+        width: 100%;
+        float: left;
+        height: 300px;
+    }
+
+    #drinks-menu h3 {
+        text-align: center;
+        line-height: 30px;
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+
+    /* .drinks {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        max-width: 500px;
+        border-top: solid #252525 2px;
+        line-height: 8px;
+    } */
+
+    .item p {
+        /* display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px; */
+        font-size: 13px;
+        line-height: 12px;
+    }
+
+    /* .flavor {
+        text-align: left;
+        width: 70%;
+    } */
+
+    /* .price {
+        text-align: right;
+        width: 25%
+    } */
+
+    .item-choice li {
+        /* list-style-type: none;
+        padding-left: 30px;
+        padding-top: 3px;
+        padding-bottom: 3px; */
+        font-size: 13px;
+        line-height: 12px;
+    }
+
+    /* .item-choice i {
+        font-size: 12px;
+        color: #3a3a3a;
+    } */
+
+    /* #foods-header {
+        width: 60%;
+        padding: 20px 0;
+        text-align: center;
+        height: 90px;
+        line-height: 30px;
+        margin: 0 auto;
+    } */
+
+    #foods-header h2 {
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+    #foods-header p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 16px;
+    }
+
+    #foods-menu-first,
+    #foods-menu-third {
+        float: left;
+    }
+
+    #foods-menu-second,
+    #foods-menu-fourth {
+        float: left;
+    }
+
+    #foods-menu-first,
+    #foods-menu-second {
+        width: 100%;
+        height: 160px;
+    }
+
+    #foods-menu-third,
+    #foods-menu-fourth {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* .foods-type {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        max-width: 500px;
+        line-height: 8px;
+    } */
+
+
+
+    /* media for menu 
+        .item p {
+            font-size: 12px;
+            line-height: 10px;
+        }
+    
+        #drinks-header p,
+        #foods-header p {
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+    
+        #drinks-menu h3 {
+            font-size: 16px;
+        }
+    
+        .item-choice li {
+            font-size: 12px;
+        }
+    
+        #drinks-container,
+        #foods-container {
+            width: 82%;
+        }
+    
+        #drinks-container {
+            height: 400px;
+            margin-top: 80px;
+        }
+    
+        #foods-container {
+            height: 550px;
+        }
+    
+        #cafe-menu {
+            background-image: url(../images/coffee-bean-landscape.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 1150px;
+        }
+    
+        /* media for contact us
+        #contact-container {
+            height: 1500px;
+            width: 100%;
+        }
+    
+        #contact-image {
+            width: 80%;
+            height: 400px;
+            margin: 0 auto;
+            padding-bottom: 30px;
+            /* display: block;
+        }
+    
+        #contact-detail {
+            width: 80%;
+            height: 400px;
+            margin: 0 auto;
+            /* display: block; 
+        }
+    
+        #location>img {
+            max-width: 100%;
+            width: 500px;
+            object-fit: cover;
+        }
+    
+        #quote {
+            max-width: 100%;
+            width: 600px;
+        }
+    
+        #contact-us {
+            max-width: 100%;
+            width: 500px;
+            height: auto;
+            display: block;
+        }
+    
+        #location {
+            width: 80%;
+            height: 400px;
+            margin: 0 auto;
+            float: none;
+        }
+    
+         media quries for sign up form 
+    
+        #signup-form {
+            clear: left;
+            float: left;
+        }
+    
+        #signup-container {
+    
+            height: auto;
+    
+        }
+    
+        #book-club-container {
+    
+            height: auto;
+        }
+    
+        #book-club-image {
+            width: 100%;
+        }
+    
+        #book-club-image {
+            width: 90%;
+        }
+    
+        #book-club-image img {
+            padding: 20px 20px 20px 0;
+        }
+    
+        #submit,
+        label,
+        textarea {
+            margin-left: 100px;
+        }
+    
+        input {
+            display: block;
+            line-height: 20px;
+            padding: 5px 0;
+            width: 65%;
+            border: solid 1px #cac9d2;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+    
+        #signup-form {
+            width: 100%;
+    
+        }
+    
+        #submit {
+            background: #a8a8a8;
+            box-shadow: 0 4px #cac9d2;
+        }
+    
+        #submit:hover {
+            background: #a1a1a1;
+        }
+    
+        #submit:active {
+            background: #3a3a3a;
+            box-shadow: 0 5px #cac9d2;
+            transform: translateY(4px);
+        }*/
+
+
 }
