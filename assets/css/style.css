@@ -280,6 +280,11 @@ footer {
     border-radius: 10px;
 }
 
+#photos .image:hover {
+    opacity: 0.5;
+}
+
+
 /* cafe menu */
 #cafe-menu {
     height: 1150px;
@@ -739,6 +744,10 @@ textarea {
     #photos {
         padding-top: 12px;
         gap: 12px;
+    }
+
+    #photos .image:hover {
+        opacity: 0.5;
     }
 
     /* media for menu */
