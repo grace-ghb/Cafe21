@@ -472,7 +472,7 @@ footer {
 }
 
 #contact-us {
-    width: 60%;
+    width: 90%;
     height: 400px;
     margin: auto;
     display: flex;
@@ -482,14 +482,14 @@ footer {
 
 #contact-image {
     width: 33%;
-    height: 400px;
+    height: 450;
     overflow: hidden;
 }
 
 #contact-image img {
-    width: 100%;
-    height: 400px;
-    border-radius: 2%;
+    max-width: 100%;
+    height: 450px;
+    border-radius: 0.3rem
 }
 
 #contact-detail {
@@ -500,17 +500,18 @@ footer {
 }
 
 #contact-detail h3 {
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     line-height: 30px;
-    font-size: 135%;
+    font-size: 1.5rem;
     padding-bottom: 20px;
 }
 
 .address {
     padding: 20px 0;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     line-height: 28px;
+    font-size: 1rem;
 }
 
 .email-address a {
@@ -541,12 +542,12 @@ footer {
 }
 
 #location img {
-    background-image: url(../images/map.png);
+    /* background-image: url(../images/map.png); */
     max-width: 100%;
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-radius: 2%;
+    border-radius: 0.3rem;
     margin: 0 30px;
 }
 
@@ -866,7 +867,7 @@ textarea {
     }
 
     #nav-div {
-        margin-right: 20px;
+        margin-right: 30px;
     }
 
     #cover-text {
@@ -977,7 +978,7 @@ textarea {
 
     #contact-image {
         width: 80%;
-        height: 400px;
+        height: 450px;
         margin: 0 auto;
         padding-bottom: 30px;
     }
@@ -1349,11 +1350,16 @@ textarea {
         margin: 0 auto;
     }
 
-    #location img {
+    #contact-detail h3 {
+        margin-top: 20px;
+    }
+
+    #location iframe {
         max-width: 90%;
-        width: 300px;
+        width: 350px;
         object-fit: cover;
         margin: 0 20px;
+
     }
 
     #contact-us {
@@ -1369,6 +1375,7 @@ textarea {
         margin: 0 10px;
         float: none;
     }
+
 
     /* media quries for sign up form */
 
