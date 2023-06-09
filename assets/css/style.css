@@ -64,6 +64,13 @@ h2 {
     border-bottom: #3a3a3a 1px solid;
 }
 
+#nav-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+}
+
 /* Main or hero section */
 #hero-outer {
     height: 600px;
@@ -842,18 +849,24 @@ textarea {
 @media only screen and (min-width: 481px) and (max-width: 950px) {
 
     #menu {
-        clear: left;
-        float: left;
+        clear: both;
+        float: right;
         margin-left: 30px;
         margin-bottom: 25px;
-        line-height: 25px;
-        font-size: 110%;
+        line-height: 70px;
+        font-size: 115%;
         letter-spacing: 2px;
+        /* margin-right: 5px; */
     }
 
     #menu li {
         margin: 0;
         padding: 0 1px;
+        font-size: 90%;
+    }
+
+    #nav-div {
+        margin-right: 20px;
     }
 
     #cover-text {
@@ -862,6 +875,7 @@ textarea {
         letter-spacing: 4px;
 
         width: 450px;
+        height: 150px;
     }
 
     /* media for ethos */
@@ -1087,16 +1101,23 @@ textarea {
 
     /* navigation links */
     #menu {
-        /* clear: both; */
+        clear: both;
         float: none;
         margin-left: 30px;
-        font-size: 70%;
+        font-size: 90%;
         letter-spacing: 1px;
     }
 
     #menu li {
         margin: 0;
         padding-right: 1px;
+    }
+
+    #nav-div {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        line-height: 70px;
     }
 
     /* Main or hero section */
@@ -1112,8 +1133,9 @@ textarea {
         font-size: 80%;
         letter-spacing: 2px;
         width: 300px;
-        height: 80px;
+        height: 100px;
         top: 80px;
+        padding-top: 20px;
     }
 
     #club-ethos {
