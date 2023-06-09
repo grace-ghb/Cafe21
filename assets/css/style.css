@@ -300,7 +300,7 @@ footer {
     margin: 0 auto;
     margin-top: 50px;
     border: 5px solid burlywood;
-    border-radius: 20%;
+    border-radius: 0.5rem;
 }
 
 #drinks-container {
