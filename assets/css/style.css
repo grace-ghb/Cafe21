@@ -487,7 +487,7 @@ footer {
 
 #contact-image {
     width: 33%;
-    height: 450;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -560,8 +560,9 @@ footer {
 
 #signup-container {
     width: 100%;
-    height: 800px;
+    height: 810px;
     overflow: hidden;
+    background: #EDD3BF;
 }
 
 #signup-welcome {
@@ -598,9 +599,10 @@ footer {
 
 #book-club-container {
     width: 80%;
-    height: 800px;
+    height: 850px;
     margin: 0 auto;
     overflow: hidden;
+
 }
 
 #book-club-image {
@@ -615,7 +617,7 @@ footer {
     height: auto;
     overflow: hidden;
     float: right;
-    border-radius: 1%;
+    border-radius: 1rem;
     padding: 20px 80px 20px 0;
 }
 
@@ -675,6 +677,16 @@ textarea {
     margin-top: 25px;
     width: 75%;
 }
+
+/* 
+textarea:hover {
+    background: #cac9d2;
+}
+
+textarea:focus {
+    background: ivory;
+    color: #3a3a3a;
+} */
 
 #submit {
     width: 180px;
@@ -1039,7 +1051,7 @@ textarea {
     }
 
     #signup-container {
-        height: auto;
+        height: 1390px;
     }
 
     #book-club-container {
@@ -1388,6 +1400,10 @@ textarea {
 
     /* media quries for sign up form */
 
+    #signup-container {
+        height: 1340px;
+    }
+
     #signup-welcome h2 {
         text-align: left;
     }
@@ -1401,9 +1417,9 @@ textarea {
         float: left;
     }
 
-    #signup-container {
+    /* #signup-container {
         height: auto;
-    }
+    } */
 
     #book-club-container {
         height: auto;
