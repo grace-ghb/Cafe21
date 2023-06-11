@@ -16,8 +16,6 @@ Cafe21 is a café located in Kinsale a lovely town in Cork, Ireland.  This café
 
 ## Table of Contents
 
----
-
 1. [User Experience (UX)](#user-experience-ux)
    * [Initial Discussion](#initial-discussion)
    * [User Stories](#user-stories)
@@ -41,9 +39,15 @@ Cafe21 is a café located in Kinsale a lovely town in Cork, Ireland.  This café
     * [Sign Up Page](#validator-testing)
     * [Tools Testing](#tools-testing)
     * [General Testing](#general-testing)
-5. [Deployment](#deployment)
+5. [Finish Products](#finish-products)
+    * [Home Page](#finish-products)
+    * [Menu Page](#finish-products)
+    * [Gallery Page](#finish-products)
+    * [Contact Us Page](#finish-products)
+    * [Sign Up Page](#finish-products)
+6. [Deployment](#deployment)
     * [GitHub Pages](#github-pages)
-6. [Credits](#credits)
+7. [Credits](#credits)
     * [Content](#credits)
     * [Media](#credits)
     * [Acknowledgments](#acknowledgements)
@@ -63,6 +67,8 @@ Cafe21 is a website for a café provided coffee, tea, and lovely foods services 
 * Users can see what the food and drink are offer look like.
 * There is a google map that users can located the location of the café.  They can email or phone in to make enquiries.
 * There is a form provided where users can sign up to join the books club.
+  
+[Back to Table of Contents](#table-of-contents)  
 
 ## Design
 
@@ -91,6 +97,8 @@ Contact Us Page Wireframes
 
 Sign Up Page Wireframes
 ![Sign Up Page Wireframes](assets/readme/wireframes-signup.png)
+
+[Back to Table of Contents](#table-of-contents)
 
 ### Features
 
@@ -278,9 +286,36 @@ Modzilla Fox - No appearance, responsiveness nor functionality issues.
   * When browse with a mobile phone, click on the numbers , the numbers will dial and indicated connected.
 
 * Google Maps
-    *When clicking on, will bring you to a new tab of large size Google Maps.
+  * When clicking on, will bring you to a new tab of large size Google Maps.
 * Gallery Images
   * When the mouse hover over, the image will show lesser opacity to indicate targeted individuals image.
+
+[Back to Table of Contents](#table-of-contents)
+
+## Finish Products
+
+Home Page Site
+
+![Home Page Finish Products](assets/readme/finish-home.jpg)
+
+Menu Page Site
+
+![Menu Page Finish Products](assets/readme/finish-menu.jpg)
+
+Gallery Page Site
+
+![Gallery Page Finish Products](assets/readme/finish-gallery.jpg)
+
+Contact Us Page
+
+![Contact Us Page Finish Products](assets/readme/finish-contact.jpg)
+
+Sign Up Page
+
+![Sign Up Page Finish Products](assets/readme/finish-signup.jpg)
+
+[Back to Table of Contents](#table-of-contents)
+
 
 ## Deployment
 
@@ -288,17 +323,17 @@ Modzilla Fox - No appearance, responsiveness nor functionality issues.
 
 ### GitHub Pages
 
-*	Steps to deploy this website to GitHub Pages from its GitHub repository:
-*	Sign in to the GitHub site.
-*	Choose the repository intended to deploy.
-*	Go to setting.
-*	Click on the ‘Page’ at the side menu.
-*	Go to Build and deployment.
-*	At Source select ‘Deploy from a branch’
-*	At the Branch, select ‘main’, ‘/(root)’ and click save.
-*	Go to GitHub Pages at the top.
-* Your site is live at [https://grace-ghb.github.io/cafe21/](https://grace-ghb.github.io/Cafe21/)
-*	Click on ‘Visit site’ and it will bring you to the new tab of your website.
+1. Steps to deploy this website to GitHub Pages from its GitHub repository:
+2. Sign in to the GitHub site.
+3. Choose the repository intended to deploy.
+4. Go to setting.
+5. Click on the ‘Page’ at the side menu.
+6. Go to Build and deployment.
+7. At Source select ‘Deploy from a branch’
+8. At the Branch, select ‘main’, ‘/(root)’ and click save.
+9. Go to GitHub Pages at the top.
+10. Your site is live at [https://grace-ghb.github.io/cafe21/](https://grace-ghb.github.io/Cafe21/)
+11. Click on ‘Visit site’ and it will bring you to the new tab of your website.
 
 ### Credits
 
@@ -338,3 +373,7 @@ Codes were consulted regularly for better understanding and knowledge from the w
 *	My husband for his support and understanding.
 *	My mentor, Marcel, for his invaluable feedback and guidance especially on how to write a proper commit message.
 *	Code Institute and the Slack Community for their support, encouragement, and sharing of knowledge make it possible for me work on the project.
+
+[Back to Table of Contents](#table-of-contents)
+
+[Top](#cafe21-website)
