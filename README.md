@@ -27,7 +27,7 @@ Cafe21 is a café located in Kinsale a lovely town in Cork, Ireland.  This café
     * [Wireframes](#wireframes)
     * [Features](#features)
 3. [Technologies Used](#technologies-used)
-    * [s Used](#technologies-used)
+    * [Languages Used](#technologies-used)
     * [Frameworks, Libraries & Programs Used](#technologies-used)
 4. [Testing](#validator-testing)
     * [W3C Validator](#validator-testing)
@@ -315,7 +315,6 @@ Sign Up Page
 ![Sign Up Page Finish Products](assets/readme/finish-signup.jpg)
 
 [Back to Table of Contents](#table-of-contents)
-
 
 ## Deployment
 
