@@ -48,8 +48,8 @@ Cafe21 is a café located in Kinsale a lovely town in Cork, Ireland.  This café
 6. [Deployment](#deployment)
     * [GitHub Pages](#github-pages)
 7. [Credits](#credits)
-    * [Content](#credits)
-    * [Media](#credits)
+    * [Content](#content)
+    * [Code](#code)
     * [Acknowledgments](#acknowledgements)
   
 ---
@@ -334,9 +334,9 @@ Sign Up Page
 10. Your site is live at [https://grace-ghb.github.io/cafe21/](https://grace-ghb.github.io/Cafe21/)
 11. Click on ‘Visit site’ and it will bring you to the new tab of your website.
 
-### Credits
+## Credits
 
-* Content
+### Content
   * All content written by the developer.
 
 * Imagery have been obtained from the
@@ -363,11 +363,12 @@ Codes were consulted regularly for better understanding and knowledge from the w
 * [W3Schools]( https://www.w3schools.com/)
 * [Tutorials Point]( https://www.tutorialspoint.com/)
 * [Modzilla Developer]( https://developer.mozilla.org/)
+* [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 * [Love Running]( https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
 * [Kera Cudmore]( https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md)
 * [josswe26]( https://github.com/josswe26/pura-vida-spa/blob/main/README.md#user-stories)
 
-## Acknowledgements
+### Acknowledgements
 
 *	My husband for his support and understanding.
 *	My mentor, Marcel, for his invaluable feedback and guidance especially on how to write a proper commit message.
